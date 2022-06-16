@@ -3,6 +3,7 @@ import ChatFeed from "./components/ChatFeed";
 import "./App.css";
 
 function App() {
+  console.log(process.env.REACT_APP_PROJECTID);
   return (
     <div className="App">
       <ChatEngine
